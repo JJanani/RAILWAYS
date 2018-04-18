@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#D3D3D3"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:background="@null"/>
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="547dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.27"
+            app:srcCompat="@drawable/fill" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:background="@null"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="73dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:ems="15"
+                    android:fontFamily="sans-serif"
+                    android:hint="Phone number"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:elevation="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@android:drawable/btn_dropdown"
+
+            />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Enter Complaint description"
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="Submit"
+            android:elevation="10dp"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+</ScrollView>

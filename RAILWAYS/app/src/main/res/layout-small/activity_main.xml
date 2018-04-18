@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.railways.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bglogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/blocklogin"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/emp_login_id"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:textColorHint="#BDBDBD"
+        android:textCursorDrawable="@null"
+        android:textSize="8dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:background="@null"
+        android:hint="@string/emp_login_password"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        android:textColorHint="#BDBDBD"
+        android:textCursorDrawable="@null"
+        android:textSize="8sp"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/edittext1"
+        android:layout_alignStart="@+id/edittext1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_btn"
+        android:text="@string/login_btn"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/question"
+        android:layout_alignBottom="@+id/edittext2"
+        android:layout_toRightOf="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+
+</RelativeLayout>

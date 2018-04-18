@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF212121</color>
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorAccent">#BDBDBD</color>
+    <color name="accent_material_dark_1">#6EC2CB</color>
+    <color name="toolBar">#FFFFFF</color>
+    <color name="primary_dark_material_dark">#424242</color>
+    <color name="accent_material_dark_2">#8d9494</color>
+</resources>

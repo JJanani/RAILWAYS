@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.railways.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bglogin" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/blocklogin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/emp_login_id"
+        android:inputType="number"
+        android:textColorHint="#BDBDBD"
+        android:textCursorDrawable="@null"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignLeft="@+id/edittext1"
+        android:layout_alignStart="@+id/edittext1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:background="@null"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="@string/emp_login_password"
+        android:inputType="textPassword"
+        android:textAlignment="textStart"
+        android:textColorHint="#BDBDBD"
+        android:textCursorDrawable="@null"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_btn"
+        android:text="@string/login_btn"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginRight="84dp"
+        android:layout_marginEnd="84dp" />
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_marginBottom="47dp"
+        app:srcCompat="@drawable/question_mark" />
+
+</RelativeLayout>

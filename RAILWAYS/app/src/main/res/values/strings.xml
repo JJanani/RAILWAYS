@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RAILWAYS</string>
+    <string name="emp_login_id">ENTER EMPLOYEE ID</string>
+    <string name="emp_login_password">ENTER PASSWORD</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="title_activity_home_page">RWF COMPLAINT REGISTER</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Register  Complaint</string>
+    <string name="title_notifications">View Complaints</string>
+    <string name="password_hint">FIRST THREE ALPHABETS OF YOUR NAME IN CAPITAL, FOLLOWED BY YOUR DATE OF BIRTH (DDMMYY)                 Eg. EMPLOYEE NAME : Niveditha \"+\"\\n DOB : 20/04/1996 \"+\"                 Password : NIV200496</string>
+    <string name="Incorrect_password_id">Incorrect Employee ID or Password.</string>
+    <string name="sub_title">WEST COLONY BANGALORE</string>
+    <string name="close_activity">Closing Activity</string>
+    <string name="Closing_message">Are you sure you want to close?</string>
+</resources>
